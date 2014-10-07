@@ -87,7 +87,7 @@ public class InstagramService {
 	/**
 	 * {@inheritDoc}
 	 */
-	public String getAuthorizationUrl(Token requestToken) {
+	public String getAuthorizationUrl() {
 		return api.getAuthorizationUrl(config);
 	}
 }
